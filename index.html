@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
-        <h1>Rodrigo Durán "Freelancer"</h1>
+        <h1 class="">Rodrigo Durán <span>"Freelancer"</span></h1>
     </header>
 
     <nav>
@@ -88,6 +91,38 @@
     <section>
         <h2>Contactos</h2>
     </section>
+
+        <form>
+            <fieldset>
+                <legend>Contactáme llenando todos los campos.</legend>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu Nombre">
+                </div>
+               
+                <div>
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Tu Teléfono">
+                </div>
+                           
+                <div>
+                    <label>Correo Electrónico</label>
+                    <input type="email" placeholder="Tu E-mail">
+                </div>
+
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                
+
+            </fieldset>
+        </form>
     
     <footer>
     <p>Todos los derechos resevados Rodrigo Durán Freelancer</p>
